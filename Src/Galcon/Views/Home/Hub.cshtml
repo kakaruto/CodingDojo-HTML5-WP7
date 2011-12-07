@@ -1,0 +1,14 @@
+﻿@model object
+@{
+}
+<div id="container">
+    <canvas id="game" width="320" height="480">
+        Sorry, your web browser does not support Canvas content.</canvas>
+    <div id="console">
+    </div>
+</div>
+<button id="reset">Reset</button>
+<script src="@Url.Content("~/Scripts/jquery-1.7.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.signalR.min.js")" type="text/javascript"></script>
+<script src="/signalr/hubs" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/galcon.js")" type="text/javascript"></script>

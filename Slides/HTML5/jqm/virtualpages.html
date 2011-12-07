@@ -1,0 +1,30 @@
+<!doctype html> 
+<html> 
+	<head> 
+	<title>Page Title</title> 
+	<link rel="stylesheet" href="media/jquery.mobile-1.0.css" />
+	<script type="text/javascript" src="../media/js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="media/jquery.mobile-1.0.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" data-theme="b" id="page1">
+	<div data-role="header">
+		<h1>Page 1</h1>
+	</div>
+	<div data-role="content">
+		<a href="#page2" data-role="button">Go to Page 2</a>
+	</div>
+</div>
+
+<div data-role="page" data-theme="b" id="page2">
+	<div data-role="header">
+		<h1>Page 2</h1>
+	</div>
+	<div data-role="content">
+		<a href="#page1" data-role="button">Go to Page 1</a>	
+	</div>
+</div>
+
+</body>
+</html>
